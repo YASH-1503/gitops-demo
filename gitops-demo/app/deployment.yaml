@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/dockersamples/examplevotingapp_result:latest
+          image: nginx:latest
           ports:
             - containerPort: 80
